@@ -1,6 +1,6 @@
 params ["_bot"];
 
-_bot setSkill 1;
+_bot setSkill (0.5 + random 0.5);
 _bot call BDM_fnc_initUnit;
 _bot call BDM_fnc_respawn;
 
